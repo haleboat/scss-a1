@@ -1,6 +1,6 @@
 # scss-a1
 
-##Group Members:
+## Group Members:
 - Alex H
 - Alex T
 - Emily
