@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    background: red;
+
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navLinks {
+    background: rgb(98, 98, 117);
+
+}
+
+.nav-links li {
+    margin-left: 100px;
+    list-style: none;
+    
+}
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: red;
+    width: 100vw;
+    height: 30vh;
+}
