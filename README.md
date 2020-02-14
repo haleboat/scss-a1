@@ -5,3 +5,6 @@
 - Alex T
 - Emily
 - Richard
+
+
+[Discord](https://discord.gg/BJuNDe)
