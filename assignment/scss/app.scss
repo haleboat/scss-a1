@@ -1,2 +1,7 @@
 // MAIN that's going to @import the other .scss files
-@import "./layout/_home.scss;
+@import "./utilities/variables";
+@import "./utilities/media";
+@import "./layout/nav-and-footer.scss";
+@import "./layout/_home.scss";
+@import "./layout/_about.scss";
+@import "./layout/_article.scss";
