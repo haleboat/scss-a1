@@ -2,9 +2,13 @@
 // Richard is doing his in css first, and then marking it up SCSS later
 // so if you want to styling using .css files go for it but we're going to have to submit ours in .scss format
 
+@import "../utilities/variables.scss";
+
 main {
     max-width: 1000px;
     margin: auto;
+    font-family: $font-stack;
+    color: $primary-color;
   }
   
   .about-hero-img {
