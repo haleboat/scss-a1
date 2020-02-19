@@ -1,3 +1,35 @@
 // Emily's scss
 // Richard is doing his in css first, and then marking it up SCSS later
 // so if you want to styling using .css files go for it but we're going to have to submit ours in .scss format
+
+main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .about-hero-img {
+    height: 300px;
+    max-width: 1000px;
+    background-image: url("https://picsum.photos/1000/300");
+    background-size: cover;
+  }
+  
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+  }
+  
+  .profile-pic {
+  object-fit: cover;
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  }
+  
+  .card-wrapper {
+    padding-left: 1rem;
+   max-width: 670px;
+  }
