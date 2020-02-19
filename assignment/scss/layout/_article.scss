@@ -1,3 +1,16 @@
 // Alex T's SCSS
-// Richard is doing his in css first, and then marking it up SCSS later
-// so if you want to styling using .css files go for it but we're going to have to submit ours in .scss format
+@import "./header";
+@import "./footer";
+
+main {
+  width: 90%;
+
+  margin: 15px;
+  }
+
+img {
+  display: flex;
+
+  width: 100%;
+  margin: auto;
+  }
