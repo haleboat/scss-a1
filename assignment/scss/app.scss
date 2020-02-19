@@ -1,6 +1,6 @@
 // MAIN that's going to @import the other .scss files
-@import "./utilities/variables";
-@import "./utilities/media";
+@import "./utilities/_variables.scss";
+@import "./utilities/_media.scss";
 @import "./layout/_nav-and-footer.scss";
 @import "./layout/_home.scss";
 @import "./layout/_about.scss";
