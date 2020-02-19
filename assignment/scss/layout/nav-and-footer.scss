@@ -1,8 +1,12 @@
-* {
+@import "../utilities/variables.scss"
+
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 .header {
     height: 10vh;
@@ -11,14 +15,17 @@
     align-items: center;
     background: red;
     font-size: 30px;
+
+
+    .header-nav {
+        display: flex;
+        font-size: 20px;
+}
+
 }
 
 
 
-.header-nav {
-    display: flex;
-    font-size: 20px;
-}
 
 .header-links1:hover, .header-links2:hover {
     cursor: pointer;
@@ -46,25 +53,32 @@
 }
 
 
+nav {
+    display: flex;
 
 
-.nav-links {
+    .nav-links {
+    @extend nav;
     font-size: 1.2rem;
     padding-left: 7.6%;
     background: rgb(100, 87, 87);
     width: 100vw;
-    display: flex;
+}
+
 }
 
 
-nav {
-  display: flex;
-}
 
-ul li {
-    margin: 10px;
+
+
+
+ul {
+    li {
+         margin: 10px;
     justify-content: space-evenly;
     list-style: none;
+    }
+   
 }
 
 
@@ -147,17 +161,23 @@ ul li {
     transform: translateX(-100%)
 }
 
-.toggle .line1 {
+.toggle {
+    .line1 {
     transform: rotate(-40deg) translate(-8px, 6px);
-}
 
-.toggle .line2 {
+    .line2 {
     transform: translateX(100vw);
-}
+    }
 
-.toggle .line3 {
+    .line3 {
     transform: rotate(40deg) translate(-8px, -6px);
 }
+} 
+
+
+
+
+
 
 
 
