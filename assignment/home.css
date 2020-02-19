@@ -5,34 +5,28 @@
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  flex-direction: column;
 }
 
 .container {
   height: 100%;
   width: 60%;
+  margin-bottom: 5%;
 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-  margin-bottom: 5%;
-  
-  border: 1px solid red;
 }
 
 .column-1 {
   width: 50%;
-  display: flex;
-  flex-direction: column;
-
-  margin: 5% 0;  
+  margin: 5% 0;
   padding: 20px;
 
-  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
 }
 
 .column-1 h1 {
@@ -45,14 +39,12 @@ body {
 
 .column-2 {
   width: 40%;
+  margin: 5% 0;
+  padding: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  margin: 5% 0;  
-  padding: 20px;
-
-  border: 1px solid green;
 }
 
 .image {
@@ -64,11 +56,9 @@ body {
 }
 
 .wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  width: 100%;
-
-  border: 1px solid yellow;
 }
 
 .wrapper h2 {
@@ -81,16 +71,16 @@ body {
 
   padding: 10px;
   margin: 10px;
+
   background: #D8D8D8;
 }
 
 .wrapper-article {
   width: 80%;
-
-  flex: flex;
-  flex-direction: column;
-
   padding: 10px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 hr {
@@ -98,25 +88,48 @@ hr {
 }
 
 article {
-  width: 60%;  
+  width: 60%;
   margin-top: 5%;
+
+  padding: 20px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  border: 1px solid red;
+  align-items: center;
 }
 
 article section {
   width: 80%;
-  border: 1px solid blue;
+  padding: 20px;
 }
 
 article .image {
   width: 80%;
-
-  border: 1px solid orange;
 }
 
+article h1 {
+  margin: 20px 0;
+}
 
+article h4 {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .column-1 {
+    width: 100%;
+  }
+
+  .column-2 {
+    width: 100%;
+  }
+
+  article {
+    width: 100%;
+  }
+}
