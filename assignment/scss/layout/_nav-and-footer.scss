@@ -1,4 +1,4 @@
-@import "../utilities/variables.scss";
+@import "../utilities/variables";
 
 
 
@@ -157,7 +157,7 @@ ul {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background: $secondary-color;
     width: 100vw;
