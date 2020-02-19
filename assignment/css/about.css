@@ -6,6 +6,7 @@ main {
 
 .card {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 1rem;
   
@@ -18,12 +19,15 @@ main {
   background-size: cover;
 }
 
-img {
+.profile-pic {
 object-fit: cover;
+height: 200px;
+width: 300px;
+margin: auto;
 }
 
 
 .card-wrapper {
   padding-left: 1rem;
- 
+ max-width: 670px;
 }
