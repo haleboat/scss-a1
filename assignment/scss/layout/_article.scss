@@ -1,11 +1,21 @@
 // Alex T's SCSS
-@import "./header";
-@import "./footer";
+// @import "./header";
+// @import "./footer";
+
+// * html, body {
+//   box-sizing: border-box;
+
+//   padding: 0;
+//   margin: 0;
+
+//   font-family: 'Open Sans', sans-serif;
+//   }
 
 main {
-  width: 90%;
-
-  margin: 15px;
+  display: block;
+  
+  width: 80%;
+  margin: auto;
   }
 
 img {
@@ -13,4 +23,10 @@ img {
 
   width: 100%;
   margin: auto;
+  }
+
+@media all and (max-width:600px) {
+  img {
+    height: 300px;
+    }
   }
