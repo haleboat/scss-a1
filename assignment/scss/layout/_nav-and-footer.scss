@@ -26,6 +26,15 @@ body {
     }
 }
 
+a {
+    color: $highlight-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $secondary-color;
+}
+
 .header-links1:hover,
 .header-links2:hover {
     cursor: pointer;
@@ -88,12 +97,15 @@ ul {
 
 @media (orientation: portrait) {
 
+ 
+
     body {
-        overflow: hidden;
+        // overflow: hidden;
     }
 
     .header {
         margin-bottom: 50px;
+        position: fixed;
     }
 
     .header-links1 {
@@ -118,10 +130,11 @@ ul {
     .hamburgerMenu {
         right: 0;
         padding: 1rem;
-        position: fixed;
+        // position: fixed;
         opacity: 1;
         cursor: pointer;
         z-index: 1;
+        background-color: $primary-color;
     }
 
     .header-links2 {
