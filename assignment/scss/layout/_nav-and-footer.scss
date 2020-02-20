@@ -17,6 +17,7 @@ body {
     align-items: center;
     background: $primary-color;
     font-size: 30px;
+   
 
 
     .header-nav {
@@ -101,7 +102,10 @@ ul {
 
     body {
         // overflow: hidden;
+        padding-top: 25vh;
     }
+
+    
 
     .header {
         margin-bottom: 50px;

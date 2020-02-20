@@ -9,6 +9,7 @@ main {
   margin: auto;
   font-family: $font-stack;
   color: $primary-color;
+  box-sizing: border-box;
 }
 
 .about-hero-img {
@@ -17,6 +18,8 @@ main {
   background-image: url("https://picsum.photos/1000/300");
   background-size: cover;
 }
+
+
 
 .card {
   display: flex;
