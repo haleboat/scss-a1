@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "build": "node-sass scss/app.scss css/app.css --output-style=compressed"
-  },
-  "dependencies": {
-    "node-sass": "^4.13.1"
-  }
-}
